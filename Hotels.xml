@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns="http://www.public.asu.edu/~YourASURITEID/Hotels" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.public.asu.edu/~YourASURITEID/Hotels Hotels.xsd">
+    
+    <!-- Example hotel from the assignment -->
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E.7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    
+    <!-- Additional real hotels -->
+    <Hotel Rating="4.5">
+        <Name>Hilton Phoenix Airport</Name>
+        <Phone>480-894-1600</Phone>
+        <Phone>800-445-8667</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2435</Number>
+            <Street>S 47th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85034</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="4.3">
+        <Name>Marriott Phoenix Downtown</Name>
+        <Phone>602-253-6633</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>400</Number>
+            <Street>N 5th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel>
+        <Name>Embassy Suites Phoenix</Name>
+        <Phone>602-222-1111</Phone>
+        <Phone>800-362-2779</Phone>
+        <Phone>602-222-1112</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2333</Number>
+            <Street>E Thomas Rd</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85016</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="4.6">
+        <Name>The Phoenician</Name>
+        <Phone>480-941-8200</Phone>
+        <Phone>800-888-8234</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>6000</Number>
+            <Street>E Camelback Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85251</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="4.1">
+        <Name>Sheraton Grand Phoenix</Name>
+        <Phone>602-817-2100</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>340</Number>
+            <Street>N 3rd St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel>
+        <Name>Hampton Inn Phoenix</Name>
+        <Phone>602-200-0990</Phone>
+        <Phone>800-426-7866</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>160</Number>
+            <Street>W Catalina Dr</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85013</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="4.4">
+        <Name>Four Seasons Scottsdale</Name>
+        <Phone>480-515-5700</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>10600</Number>
+            <Street>E Crescent Moon Dr</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85262</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="3.9">
+        <Name>Holiday Inn Express Phoenix</Name>
+        <Phone>602-453-9900</Phone>
+        <Phone>877-865-6578</Phone>
+        <Phone>602-453-9901</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>620</Number>
+            <Street>N 6th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel>
+        <Name>Hyatt Regency Scottsdale</Name>
+        <Phone>480-444-1234</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>7500</Number>
+            <Street>E Doubletree Ranch Rd</Street>
+            <City>Scottsdale</City>
+            <State>AZ</State>
+            <Zip>85258</Zip>
+        </Address>
+    </Hotel>
+    
+    <Hotel Rating="4.7">
+        <Name>Arizona Biltmore</Name>
+        <Phone>602-955-6600</Phone>
+        <Phone>800-950-0086</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2400</Number>
+            <Street>E Missouri Ave</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85016</Zip>
+        </Address>
+    </Hotel>
+    
+</Hotels>

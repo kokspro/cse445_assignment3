@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns="http://www.public.asu.edu/~YourASURITEID/Hotels" 
+            targetNamespace="http://www.public.asu.edu/~YourASURITEID/Hotels" 
+            elementFormDefault="qualified" 
+            attributeFormDefault="unqualified">
+    
+    <xsd:annotation>
+        <xsd:documentation xml:lang="en">
+            CSE445 Distributed Software Development Assignment 4 - Hotels Directory Schema
+        </xsd:documentation>
+    </xsd:annotation>
+    
+    <!-- Root element definition -->
+    <xsd:element name="Hotels" type="HotelsType"/>
+    
+    <!-- Hotels complex type containing multiple Hotel elements -->
+    <xsd:complexType name="HotelsType">
+        <xsd:sequence>
+            <xsd:element name="Hotel" type="HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <!-- Hotel details complex type -->
+    <xsd:complexType name="HotelDetails">
+        <xsd:sequence>
+            <xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
+            <xsd:element name="Address" type="AddressDetails" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>
+        <!-- Optional Rating attribute -->
+        <xsd:attribute name="Rating" type="RatingType" use="optional"/>
+    </xsd:complexType>
+    
+    <!-- Address details complex type -->
+    <xsd:complexType name="AddressDetails">
+        <xsd:sequence>
+            <xsd:element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="State" type="StateType" minOccurs="1" maxOccurs="1"/>
+            <xsd:element name="Zip" type="ZipType" minOccurs="1" maxOccurs="1"/>
+        </xsd:sequence>
+        <!-- Required NearestAirport attribute -->
+        <xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
+    </xsd:complexType>
+    
+    <!-- Phone number type with pattern restriction -->
+    <xsd:simpleType name="PhoneType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{3}-\d{3}-\d{4}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <!-- State abbreviation type (2 uppercase letters) -->
+    <xsd:simpleType name="StateType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z]{2}"/>
+            <xsd:length value="2"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <!-- Zip code type (5 digits) -->
+    <xsd:simpleType name="ZipType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{5}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <!-- Rating type (decimal between 0.0 and 5.0) -->
+    <xsd:simpleType name="RatingType">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:minInclusive value="0.0"/>
+            <xsd:maxInclusive value="5.0"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+</xsd:schema>
