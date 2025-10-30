@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns="http://www.public.asu.edu/~YourASURITEID/Hotels" 
+<Hotels xmlns:="http://www.public.asu.edu/~YourASURITEID/Hotels" 
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xsi:schemaLocation="http://www.public.asu.edu/~YourASURITEID/Hotels Hotels.xsd">
     
-    <!-- Example hotel from the assignment -->
     <Hotel Rating="4.2">
         <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
@@ -17,7 +16,6 @@
         </Address>
     </Hotel>
     
-    <!-- Additional real hotels -->
     <Hotel Rating="4.5">
         <Name>Hilton Phoenix Airport</Name>
         <Phone>480-894-1600</Phone>
