@@ -5,7 +5,7 @@
     <!-- Error 1: Root element is Hotel instead of Hotels -->
     
     <Hotel Rating="4.2">
-        <n>Westin</n>
+        <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
         <Address NearestAirport="Sky Harbor">
@@ -18,7 +18,7 @@
     </Hotel>
     
     <Hotel Rating="4.5">
-        <n>Hilton Phoenix Airport</n>
+        <Name>Hilton Phoenix Airport</Name>
         <Phone>480-894-1600</Phone>
         <Phone>800-445-8667</Phone>
         <Address>  <!-- Error 2: Missing required attribute NearestAirport -->
@@ -31,7 +31,7 @@
     </Hotel>
     
     <Hotel Rating="4.3">
-        <n>Marriott Phoenix Downtown</n>
+        <Name>Marriott Phoenix Downtown</Name>
         <!-- Error 3: Phone element is missing (required at least 1) -->
         <Address NearestAirport="Sky Harbor">
             <Number>400</Number>
@@ -43,7 +43,7 @@
     </Hotel>
     
     <Hotel>
-        <n>Embassy Suites Phoenix</n>
+        <Name>Embassy Suites Phoenix</Name>
         <Phone>602-222-1111</Phone>
         <Phone>800-362-2779</Phone>
         <Address NearestAirport="Sky Harbor">  <!-- Error 4: No closing tag for Address -->
@@ -56,8 +56,8 @@
     </Hotel>
     
     <Hotel Rating="4.6">
-        <n>The Phoenician</n>
-        <n>Luxury Resort</n>  <!-- Error 5: Two names provided (max is 1) -->
+        <Name>The Phoenician</Name>
+        <Name>Luxury Resort</Name>  <!-- Error 5: Two names provided (max is 1) -->
         <Phone>480-941-8200</Phone>
         <Phone>800-888-8234</Phone>
         <Address NearestAirport="Sky Harbor">
@@ -70,7 +70,7 @@
     </Hotel>
     
     <Hotel Rating="4.1">
-        <n>Sheraton Grand Phoenix</n>
+        <Name>Sheraton Grand Phoenix</Name>
         <Phone>602-817-2100</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>340</Number>
@@ -82,7 +82,7 @@
     </Hotel>
     
     <Hotel>
-        <n>Hampton Inn Phoenix</n>
+        <Name>Hampton Inn Phoenix</Name>
         <Phone>602-200-0990</Phone>
         <Phone>800-426-7866</Phone>
         <Address NearestAirport="Sky Harbor">
@@ -95,7 +95,7 @@
     </Hotel>
     
     <Hotel Rating="4.4">
-        <n>Four Seasons Scottsdale</n>
+        <Name>Four Seasons Scottsdale</Name>
         <Phone>480-515-5700</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>10600</Number>
@@ -107,7 +107,7 @@
     </Hotel>
     
     <Hotel Rating="3.9">
-        <n>Holiday Inn Express Phoenix</n>
+        <Name>Holiday Inn Express Phoenix</Name>
         <Phone>602-453-9900</Phone>
         <Phone>877-865-6578</Phone>
         <Phone>602-453-9901</Phone>
@@ -121,7 +121,7 @@
     </Hotel>
     
     <Hotel>
-        <n>Hyatt Regency Scottsdale</n>
+        <Name>Hyatt Regency Scottsdale</Name>
         <Phone>480-444-1234</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>7500</Number>
@@ -133,7 +133,7 @@
     </Hotel>
     
     <Hotel Rating="4.7">
-        <n>Arizona Biltmore</n>
+        <Name>Arizona Biltmore</Name>
         <Phone>602-955-6600</Phone>
         <Phone>800-950-0086</Phone>
         <Address NearestAirport="Sky Harbor">
