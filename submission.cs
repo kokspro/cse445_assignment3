@@ -24,9 +24,9 @@ namespace ConsoleApp1
     public class Program
     {
         // Replace these URLs with your actual deployed file URLs on GitHub or other server
-        public static string xmlURL = "Your XML URL";  // Points to Hotels.xml
-        public static string xmlErrorURL = "Your Error XML URL";  // Points to HotelsErrors.xml
-        public static string xsdURL = "Your XSD URL";  // Points to Hotels.xsd
+        public static string xmlURL = "https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main/Hotels.xml";
+        public static string xmlErrorURL = "https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main/HotelsErrors.xml";
+        public static string xsdURL = "https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main/Hotels.xsd";
 
         public static void Main(string[] args)
         {
