@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotel xmlns="http://www.public.asu.edu/~YourASURITEID/Hotels" 
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-       xsi:schemaLocation="http://www.public.asu.edu/~YourASURITEID/Hotels Hotels.xsd">
+<Hotel xmlns="https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main/Hotels">
+
     <!-- Error 1: Root element is Hotel instead of Hotels -->
     
     <Hotel Rating="4.2">
