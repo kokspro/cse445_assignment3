@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-           targetNamespace="https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main"
-           xmlns="https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main"
+           targetNamespace="https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main/Hotels"
+           xmlns="https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main/Hotels"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
     
