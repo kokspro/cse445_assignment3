@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Hotels xmlns="https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main/Hotels">
+<Hotels xmlns="https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main https://raw.githubusercontent.com/kokspro/cse445_assignment3/refs/heads/main/Hotels.xsd">
+
     
     <Hotel Rating="4.2">
         <Name>Westin</Name>
